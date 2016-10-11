@@ -26,6 +26,6 @@ main()
 			}
 	}
 	for(k=0;k<n;k++)
-	printf("%d",m[k]);
+	printf("%2d",m[k]);
 	getch();	
 }
