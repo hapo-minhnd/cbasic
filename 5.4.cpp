@@ -1,13 +1,10 @@
 #include<conio.h>
 #include<stdio.h>
 #include<string.h>
-
-
 int main()
 {
-	char dslop[10][30],*pdslop;
+	char dslop[10][30];
 	int n,i,a,j;
-	pdslop = (char*)dslop;
 	char temp;
 	do 
 	{
@@ -19,7 +16,7 @@ int main()
 	for(i=0;i<n;i++)				
 	{
 		printf("\nnhap vao mang dslops[%d]= ",i);
-		scanf("%s",&dslop);
+		scanf("%s",&dslop[i]);
 	}
 	for(i=0;i<n;i++)
 		for(int j=i+1;j<n-1;j++)
